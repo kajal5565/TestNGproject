@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-21T21:10:26 IST" name="Default suite" finished-at="2022-01-21T21:11:38 IST" duration-ms="72052">
+    <groups>
+    </groups>
+    <test started-at="2022-01-21T21:10:26 IST" name="Default test" finished-at="2022-01-21T21:11:38 IST" duration-ms="72052">
+      <class name="EndToEndProject.TestNGFramework.verify_login">
+        <test-method signature="Browser_Launch(java.lang.String,java.lang.String)[pri:0, instance:EndToEndProject.TestNGFramework.verify_login@bae7dc0]" started-at="2022-01-21T21:10:26 IST" name="Browser_Launch" data-provider="Getdata" finished-at="2022-01-21T21:10:52 IST" duration-ms="25395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method signature="Browser_Launch(java.lang.String,java.lang.String)[pri:0, instance:EndToEndProject.TestNGFramework.verify_login@bae7dc0]" started-at="2022-01-21T21:10:52 IST" name="Browser_Launch" data-provider="Getdata" finished-at="2022-01-21T21:11:38 IST" duration-ms="46548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+      </class> <!-- EndToEndProject.TestNGFramework.verify_login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
